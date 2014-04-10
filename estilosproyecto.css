@@ -1,0 +1,107 @@
+body 
+{
+	background: #ECF6CE;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 0;
+}
+
+header
+{
+	background: url(fotoheader.jpg);
+	margin: 0 0;
+	padding: 0;
+	width: 100%
+}
+
+header h1
+{
+	margin: 0;
+	text-shadow: #000 5px 5px 10px;
+}
+ 
+ header h2
+ {
+ 	    margin: 0;
+ 		text-shadow: #000 5px 5px 10px;
+ 		padding: 0.5em;
+
+
+ }
+
+ nav
+ {
+ 	background: olive;
+ 	border border-radius: 0.5px;
+ 	padding: 0.5em 0 0.5em 0;
+ 	margin: 0 ;
+ 	width: 100%
+
+ }
+
+nav ul 
+ {
+ 	list-style: none;
+
+ 	
+ }
+
+  nav ul li 
+  {
+  	 	display:inline-block;
+
+  }
+  nav ul li a 
+ {
+
+    border-radius:0.5em;
+ 	background: white;
+ 	color: black;
+ 	display: inline-block;
+ 	margin: 0 1em 0 0;
+ 	padding: 0.5em 1em;
+ 	text-decoration: none;	
+ }
+ nav ul li a:hover
+{
+	background: #fff;
+	color: black;
+	transform: scale(1.2) rotate(5deg);
+		-webkit-transform: scale(1.2) rotate(5deg);
+
+}
+
+ 
+
+#foto
+{
+	background: #255;
+	border-radius:0.5em;
+	color: #222;
+	text-align: left;
+	width: 40%;
+}
+
+#foto img
+{
+	width: 100%;
+}
+
+#coche,#texto
+{
+	display: inline-block;
+	 vertical-align: top;
+}
+#texto
+{
+	border-radius: 1em;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	background: olive;
+	margin: 2em 2% 7em 1em;
+	padding:1em;
+	text-align:  left;
+	width: 40%;
+
+
+}
